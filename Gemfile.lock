@@ -35,7 +35,11 @@ GEM
       ember-source
       execjs
       handlebars-source
+    better_errors (0.9.0)
+      coderay (>= 1.0.0)
+      erubis (>= 2.6.6)
     builder (3.0.4)
+    coderay (1.0.9)
     ember-data-source (0.14)
       ember-source
     ember-rails (0.13.0)
@@ -116,6 +120,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  better_errors
   ember-rails
   ember-source (= 1.0.0)
   jquery-rails
