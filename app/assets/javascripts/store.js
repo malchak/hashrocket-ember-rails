@@ -5,6 +5,7 @@ App.Store = DS.Store.extend({
   adapter: DS.RESTAdapter.create()
 });
 
-DS.RESTAdapter.reopen({
-	namespace: 'api/v1'
+DS.RESTAdapter.extend({
+	namespace: 'api/v1',
+	plurals: { story: 'stories' }
 });
