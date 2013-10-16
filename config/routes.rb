@@ -1,4 +1,6 @@
 App::Application.routes.draw do
+  
+  root to: 'home#index'
 
   namespace :api do
     namespace :v1 do
@@ -6,7 +8,7 @@ App::Application.routes.draw do
     end
   end
 
-  root to: 'home#index'
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
